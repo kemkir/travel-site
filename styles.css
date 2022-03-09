@@ -61,15 +61,35 @@ header li {
     background-color: rgb(255, 238, 0);
 }
 
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    FONT-SIZE: 40PX;
+    color: rgb(59, 65, 64);
+}
+
 #destinations {
     display: flex;
     width: 90%;
     margin: auto;
     margin-bottom: 40px;
+    justify-content: center;
 }
 
 .destination {
     margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.destination p {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(124, 123, 123);
+    margin: 20px 0;
+}
+
+.destination strong {
+    color: rgb(0, 160, 117);
 }
 
 .destination img {
