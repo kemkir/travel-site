@@ -68,3 +68,44 @@ footer img {
     width: 100%;
     height: 100%;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px 20px;
+        gap: 15px;
+    }
+
+    #page-logo a {
+        font-size: 35px;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    header li {
+        margin: 0 10px;
+    }
+
+    header a {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+
+    footer {
+        padding: 30px 20px;
+    }
+
+    footer li {
+        width: 60px;
+        height: 60px;
+        margin: 0 20px;
+    }
+}
