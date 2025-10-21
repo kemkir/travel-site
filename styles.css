@@ -69,7 +69,7 @@ header li {
 #highlights h2 {
     text-transform: uppercase;
     text-align: center;
-    FONT-SIZE: 40PX;
+    font-size: 40px;
     color: rgb(59, 65, 64);
 }
 
@@ -103,4 +103,70 @@ header li {
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
     border-radius: 10px;
     object-fit: cover;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 1024px) {
+    #hero-content {
+        width: 90%;
+        max-width: 600px;
+        top: 150px;
+        padding: 40px 20px;
+    }
+
+    #hero-content h1 {
+        font-size: 36px;
+    }
+
+    #hero-content p {
+        font-size: 18px;
+    }
+
+    #hero-content a {
+        font-size: 20px;
+    }
+
+    #destinations {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .destination {
+        margin: 20px 0;
+        max-width: 500px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #hero {
+        height: 600px;
+    }
+
+    #hero-content {
+        top: 100px;
+        padding: 30px 15px;
+    }
+
+    #hero-content h1 {
+        font-size: 28px;
+    }
+
+    #hero-content p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    #hero-content a {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    #highlights h2 {
+        font-size: 28px;
+    }
+
+    .destination img {
+        height: 180px;
+    }
 }
